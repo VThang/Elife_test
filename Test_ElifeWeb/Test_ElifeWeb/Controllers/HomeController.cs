@@ -8,6 +8,8 @@ namespace Test_ElifeWeb.Controllers
 {
     public class HomeController : Controller
     {
+        TempDataDictionary info = new TempDataDictionary();
+        
         public ActionResult Index()
         {
             return View();
